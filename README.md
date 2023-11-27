@@ -11,11 +11,11 @@ USING SQL QUERIES to get schema_name and table_name
 
 ![image](https://github.com/mrbnkz/mrb_jobs/assets/147990007/90073c89-3b6b-4434-aa6e-1af282d97e76)
 
-After getting the table_names and schema_names, then copy the file into the azure datalakegen2 from microsoft SQL server management studio, using azure datafactory (ADF)
+After getting the table_names and schema_names, then copy the file into the azure datalakegen2 from microsoft SQL server management studio, using azure data factory (ADF)
 
 ![image](https://github.com/mrbnkz/mrb_jobs/assets/147990007/d1950b04-d268-4046-8dc0-bff90229a742)
 
-# Step Four: Data Transformation
+# Step Four: Data Transformation/ Pipeline
 * Transform and clean data to make it suitable for analytical and reporting purposes.
 * Handle data enrichment and data augmentation where necessary.
 
@@ -23,8 +23,19 @@ After getting the table_names and schema_names, then copy the file into the azur
   ![image](https://github.com/mrbnkz/mrb_jobs/assets/147990007/6319d445-5b8c-4615-8565-42291d023011)
   ![image](https://github.com/mrbnkz/mrb_jobs/assets/147990007/0a0a4080-37d8-4a5c-bac2-c3b008ac2bfd)
 
-* Stage Two: Transform the raw files(Adjust the timestamp of the data and then convert it into delta format) using Python and PySpark
+* Stage Two: Transform the raw files(Adjust the timestamp of the data and then convert it from parquet to delta format) using Python and PySpark
   ![image](https://github.com/mrbnkz/mrb_jobs/assets/147990007/23d9f6aa-5f29-481e-ad15-3722c18bd5c7)
   
-* Stage Three: 
+* Stage Three: Tranform the column_name using python and Pyspark
+  ![image](https://github.com/mrbnkz/mrb_jobs/assets/147990007/ed486bd6-6aa7-48ac-9014-8b1bf56719a8)
+
+* Stage Four: Pipeline Development using azure data factory
+  ![image](https://github.com/mrbnkz/mrb_jobs/assets/147990007/429dc6ee-9e2b-48a5-899c-3212891e4ad7)
+
+
+# Step Five: Data Loading
+* Automating the data transformation process using azure synapse analytics, for easy transformation of similar database file
+
+
   
+ 
