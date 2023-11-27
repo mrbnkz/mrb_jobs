@@ -34,7 +34,7 @@ After getting the table_names and schema_names, then copy the file into the azur
 
 
 # Step Five: Data Loading
-* Automating the data transformation process using azure synapse analytics, for easy transformation of similar database file
+* Loading the data into the database for easy use
 
 
   
