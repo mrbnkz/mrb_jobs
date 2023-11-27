@@ -33,8 +33,7 @@ After getting the table_names and schema_names, then copy the file into the azur
   ![image](https://github.com/mrbnkz/mrb_jobs/assets/147990007/429dc6ee-9e2b-48a5-899c-3212891e4ad7)
 
 
-# Step Five: Data Loading
-* Loading the data into the database for easy use
+
 
 
   
